@@ -1,1 +1,42 @@
-.app {}
+.app {
+}
+
+.app__text {
+    margin: 16px 0;
+}
+
+.app__content {
+    padding: 16px;
+    padding-top: 54px;
+}
+
+.header {
+    background-color: #34495e;
+    min-height: 54px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.header__name {
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
+
+.header__github {
+    margin-left: auto;
+}
+
+.header__link {
+    color: white;
+    text-decoration: none;
+}
+
+.canvas {
+    margin-top: 16px;
+}
